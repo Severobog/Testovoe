@@ -1,0 +1,33 @@
+{
+  "configurations" : [
+    {
+      "id" : "CE6B6916-F57C-48D2-BF18-9EABD5799A2E",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:IconSearch.xcodeproj",
+        "identifier" : "FFFA966F2C27872B00AEF54C",
+        "name" : "IconSearchTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:IconSearch.xcodeproj",
+        "identifier" : "FFFA967C2C27873500AEF54C",
+        "name" : "IconSearchUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
